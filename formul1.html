@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formule</title>
+</head>
+<body>
+        <nav class="titre">
+            <img src="Logo_ofppt.png" alt="logo">
+            <h1>Inscription aux Clubs Parascolaires à Solicode</h1>
+        </nav>
+        <form action="" id="loginform">
+    <div class="style">
+        
+            <div class="image">
+                <img src="solicode1.jpg" alt="Solicode">
+                <p> <span class="solicode">SOLI</span><span>CODE</span> est un centre de formation solidaire et inclusif,<br>
+                ouvert aux jeunes motivés et intéressés par les métiers du Développement Web et Mobile</p>
+               </div>
+               <div class="inputs">
+                <h2>Inscrire vous :</h2>
+                <div class="from">
+                    <div class="label" >
+                        <Label for="Nom">Nom:</Label><br><br>
+                        <Label for="Prénom">Prénom:</Label> <br><br><br>
+                        <Label for="Email">Email:</Label><br><br><br>
+                        <Label for="Téléphone">Téléphone:</Label><br>
+                    </div>
+                    <div class="cader">
+                        <input type="text" id="Nom" name="Nom" placeholder="Nom" onkeyup="nom()"><br><br>
+                        <input type="text" id="Prénom" name="Prénom" placeholder="Prénom" onkeyup="prenom()"><br><br>
+                        <small></small>
+                        <input type="text" id="email" name="email" placeholder="email" onkeyup="Email()"><br><br>
+                        <p id="resultat"></p>
+                        <input type="text" id="phone" placeholder="Téléphone"  onkeyup="Phone()"><br><br>
+                    </div>
+                </div>
+                        <div class="radios">
+                            <div>
+                                <label for="Genre" id="genre">Genre:</label>
+                                <input type="radio" id="femme" name="Genre" > Féminin 
+                                <input type="radio" id="homme" name="Genre"> Masculin <br><br>
+                                <p id="erreur"></p>
+                            </div>
+                            <div>
+                                <label for="Groupe">Groupe:</label>
+                                <input type="radio" name="groupe" id="radio1" onclick="radio12()" >DW101
+                                <input type="radio" name="groupe" id="radio2" onclick="radio2()">DW102 
+                                <input type="radio"name="groupe" id="radio3" onclick="radio3()">DW103 <br>
+                                <input type="radio"name="groupe" id="radio4" onclick="radio4()"> DM101 
+                                <input type="radio"name="groupe" id="radio5" onclick="radio5()"> DM102 <br><br>
+                                <p id="error"></p>
+                            </div>
+                        </div>
+                        <label for="Club">Choisire ton club:</label><br><br>
+                        <select  multiple  id="Club">
+                          <option value="Informatique">Informatique</option>
+                          <option value="Robotique">Robotique</option>
+                          <option value="Jeu d'échecs">Jeu d'échecs</option>
+                          <option value="Musique">Musique</option>
+                          <option value="Foot">Foot</option>
+                          <option value="Théatre">Théatre</option>
+                        </select><br><br>
+                        <input type="submit" id="buton"> 
+                    </div>
+                    
+      
+           
+    </div>
+</form>
+    
+<script src="formule1.js"></script>
+</body>
+</html>

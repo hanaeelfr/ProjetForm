@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Poppins", sans-serif;
+}
+body {
+    /* background-color: #8fbc8f; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-size: 25px;
+}
+span {
+    color: #FF8C00;
+    font-size: xx-large;
+}
+.solicode{
+    color: white;
+    font-size: xx-large;
+}
+.titre img {
+width: 5%;
+border-radius: 50%;
+}
+.titre{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.image {
+    width: 50%;
+    margin: 5%;
+}
+.image img {
+    width: 80% ;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+.style {
+    display: flex;
+}
+.inputs{
+    margin: 5%;
+    padding: 15px;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    border: 5px solid #090979;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(44, 0, 0);
+    padding-bottom: 10px;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.radios input{
+    width: 20px;
+    
+}
+.from{
+    display: flex;
+}
+#Club{
+    width: 200px;
+    margin-left: 10px;
+    background: rgba(9,9,121,1);
+    color: white;
+    margin-left: 5%;
+}
+#buton{
+    background-color: #090979;
+    color: white;
+    width: 25%;
+    margin-left: 20%;
+    
+}
+.cader{
+    border-radius: 2px solide #f0f0f0;
+}
+#erreur{
+    color: red;
+    font-size: 15px;
+}
+#error{
+    color: red;
+    font-size: 15px;
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+  }
+
