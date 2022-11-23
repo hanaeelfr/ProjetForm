@@ -41,22 +41,22 @@
                         <div class="radios">
                             <div>
                                 <label for="Genre" id="genre">Genre:</label>
-                                <input type="radio" id="femme" name="Genre" > Féminin 
-                                <input type="radio" id="homme" name="Genre"> Masculin <br><br>
+                                <input type="radio" id="femme" name="Genre" onclick="Femme()" > Féminin 
+                                <input type="radio" id="homme" name="Genre" onclick="Homme()"> Masculin <br><br>
                                 <p id="erreur"></p>
                             </div>
                             <div>
                                 <label for="Groupe">Groupe:</label>
-                                <input type="radio" name="groupe" id="radio1" onclick="radio12()" >DW101
-                                <input type="radio" name="groupe" id="radio2" onclick="radio2()">DW102 
-                                <input type="radio"name="groupe" id="radio3" onclick="radio3()">DW103 <br>
-                                <input type="radio"name="groupe" id="radio4" onclick="radio4()"> DM101 
-                                <input type="radio"name="groupe" id="radio5" onclick="radio5()"> DM102 <br><br>
+                                <input type="radio" name="groupe" id="radio1" onclick="Radio1()" >DW101
+                                <input type="radio" name="groupe" id="radio2" onclick="Radio2()">DW102 
+                                <input type="radio"name="groupe" id="radio3" onclick="Radio3()">DW103 <br>
+                                <input type="radio"name="groupe" id="radio4" onclick="Radio4()"> DM101 
+                                <input type="radio"name="groupe" id="radio5" onclick="Radio5()"> DM102 <br><br>
                                 <p id="error"></p>
                             </div>
                         </div>
                         <label for="Club">Choisire ton club:</label><br><br>
-                        <select  multiple  id="Club">
+                        <select  multiple  id="Club" onclick="clup()">
                           <option value="Informatique">Informatique</option>
                           <option value="Robotique">Robotique</option>
                           <option value="Jeu d'échecs">Jeu d'échecs</option>
@@ -64,6 +64,7 @@
                           <option value="Foot">Foot</option>
                           <option value="Théatre">Théatre</option>
                         </select><br><br>
+                        <p id="result"></p>
                         <input type="submit" id="buton"> 
                     </div>
                     

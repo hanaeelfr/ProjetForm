@@ -100,11 +100,11 @@ input{
 }
 #erreur{
     color: red;
-    font-size: 15px;
+    font-size: 25px;
 }
 #error{
     color: red;
-    font-size: 15px;
+    font-size: 25px;
 }
 .title-word {
     animation: color-animation 4s linear infinite;
