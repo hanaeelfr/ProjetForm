@@ -81,7 +81,7 @@ document.getElementById('buton').addEventListener('click', function(){
 
     
     
-    if(nom.length<=30 && prenom.length<=30 && email.match(emailRegExp) && telephone.match(phoneRe) && ((femme==true) || (homme== true)) && (checkRadio == true || checkRadio1 == true || checkRadio2 == true || checkRadio3 == true || checkRadio4 == true)&& selected.length<=3 ){
+    if( (nom.length<=30 && regName.test(nom)) && (prenom.length<=30 && regName.test(prenom)) && email.match(emailRegExp) && telephone.match(phoneRe) && ((femme==true) || (homme== true)) && (checkRadio == true || checkRadio1 == true || checkRadio2 == true || checkRadio3 == true || checkRadio4 == true)&& selected.length<=3 ){
         window.open("file:///C:/Users/Solicode/Desktop/projet6/confirmermation.html" , "confirmation");
     }   
     
